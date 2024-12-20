@@ -4,7 +4,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    // State variables to manage the visibility of links for each car model
+    // State variables: manage visibility of links for each car model
     @State private var showCivicLinks = false
     @State private var showCamryLinks = false
     @State private var showCX5Links = false
@@ -16,10 +16,10 @@ struct ContentView: View {
     @State private var show911Links = false
     @State private var showGTRLinks = false
     @State private var showFilterPopup = false
-    // Array for holding selected car model years
+    // Array: hold selected car model years
     @State private var selectedYears: [String] = []
 
-    // Define the range of years available (2016 to 2025)
+    // Defining range of years available
     let yearRange = Array(2016...2025).map { String($0) }
 
     var body: some View {
@@ -32,7 +32,6 @@ struct ContentView: View {
                     .ignoresSafeArea()
 
                 VStack {
-                    // Title of the screen
                     Text("All Cars")
                         .font(.custom("Georgia", size: 35))
                         .fontWeight(.bold)
@@ -44,7 +43,7 @@ struct ContentView: View {
 
                     ScrollView {
                         VStack(spacing: 20) {
-                            // Group of car models for the first section
+                            // Group of vehicle models for first section
                             Group {
                                 createButtonSection(
                                     title: "Honda Civic",
@@ -63,7 +62,7 @@ struct ContentView: View {
 
                             Divider()
 
-                            // Group of car models for the second section
+                            // Group of vehicle models for the second section
                             Group {
                                 createButtonSection(
                                     title: "Mazda CX-5",
@@ -82,7 +81,7 @@ struct ContentView: View {
 
                             Divider()
 
-                            // Group of car models for the third section
+                            // Group of vehicle models for the third section
                             Group {
                                 createButtonSection(
                                     title: "BMW X3",
@@ -101,7 +100,7 @@ struct ContentView: View {
 
                             Divider()
 
-                            // Group of car models for the fourth section
+                            // Group of vehicle models for the fourth section
                             Group {
                                 createButtonSection(
                                     title: "Lexus RX",
@@ -120,7 +119,7 @@ struct ContentView: View {
 
                             Divider()
 
-                            // Group of car models for the fifth section
+                            // Group of vehicle models for the fifth section
                             Group {
                                 createButtonSection(
                                     title: "Porsche 911",
@@ -139,6 +138,27 @@ struct ContentView: View {
                         }
                         .padding()
                         .frame(maxWidth: .infinity)
+                        
+                        Spacer()
+                        
+                        VStack(spacing: 10) {
+                            Image("inflation1")
+                            .resizable()
+                            .scaledToFit()
+                            .clipShape(RoundedRectangle(cornerRadius: 10))
+
+                            Image("inflation2")
+                            .resizable()
+                            .scaledToFit()
+                            .clipShape(RoundedRectangle(cornerRadius: 10))
+
+                            Image("inflation3")
+                            .resizable()
+                            .scaledToFit()
+                            .clipShape(RoundedRectangle(cornerRadius: 10))
+                        }
+                        
+                        .padding(.horizontal)
                     }
 
                     Spacer()
@@ -157,10 +177,9 @@ struct ContentView: View {
                     .padding(.bottom, 40)
                 }
 
-                // Display the filter popup if showFilterPopup is true
+                // Display filter popup
                 if showFilterPopup {
                     ZStack {
-                        // Semi-transparent background to dim the screen
                         Color.black.opacity(0.5)
                             .ignoresSafeArea()
 
@@ -188,7 +207,7 @@ struct ContentView: View {
                                 .padding()
                             }
 
-                            // Button to clear the selected years filter
+                            // Button to clear selected years filter
                             Button(action: {
                                 selectedYears.removeAll()
                                 showFilterPopup = false
@@ -202,7 +221,7 @@ struct ContentView: View {
                             }
                             .padding(.top)
 
-                            // Button to close the filter popup
+                            // Button to close filter popup
                             Button(action: {
                                 showFilterPopup = false
                             }) {
@@ -224,7 +243,7 @@ struct ContentView: View {
         }
     }
 
-    // Function to toggle year selection
+    // Func: toggle year selection
     private func toggleYearSelection(_ year: String) {
         if selectedYears.contains(year) {
             selectedYears.removeAll { $0 == year }
@@ -233,10 +252,10 @@ struct ContentView: View {
         }
     }
 
-    // Function to create button sections for each car model
+    // Func: create button sections for each car model
     func createButtonSection(title: String, showLinks: Binding<Bool>, links: [String], imageName: String) -> some View {
         VStack {
-            // Image for the car model
+            // Image for car model
             Image(imageName)
                 .resizable()
                 .scaledToFit()
@@ -258,7 +277,7 @@ struct ContentView: View {
                     .cornerRadius(0)
             }
 
-            // Show the car model links if showLinks is true
+            // Show car model links
             if showLinks.wrappedValue {
                 ForEach(links.filter { link in
                     guard !selectedYears.isEmpty else { return true }
@@ -279,7 +298,7 @@ struct ContentView: View {
         }
     }
 
-    // Helper function to extract the year from a URL
+    // Helper func: extract year from URL
     func getYear(from url: String) -> String {
         let components = url.split(separator: "&")
         for component in components {
