@@ -11,6 +11,22 @@
 		DC50E05D2D1518AB00C38E57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50E05C2D1518AB00C38E57 /* ContentView.swift */; };
 		DC50E05F2D1518AD00C38E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC50E05E2D1518AD00C38E57 /* Assets.xcassets */; };
 		DC50E0622D1518AD00C38E57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC50E0612D1518AD00C38E57 /* Preview Assets.xcassets */; };
+		DC50E0692D15195700C38E57 /* CarResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50E0682D15195700C38E57 /* CarResponse.swift */; };
+		DC50E06B2D15197800C38E57 /* CarDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50E06A2D15197800C38E57 /* CarDataFetcher.swift */; };
+		DC50E06D2D15199100C38E57 /* CoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50E06C2D15199100C38E57 /* CoverView.swift */; };
+		DC50E06F2D1519B500C38E57 /* StartPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50E06E2D1519B500C38E57 /* StartPageView.swift */; };
+		DC50E0712D1519CF00C38E57 /* CarDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50E0702D1519CF00C38E57 /* CarDataView.swift */; };
+		DC50E0732D1519FA00C38E57 /* ModelYearList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50E0722D1519FA00C38E57 /* ModelYearList.swift */; };
+		DC50E0752D151A3800C38E57 /* HondaCivicLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50E0742D151A3800C38E57 /* HondaCivicLinks.swift */; };
+		DC50E0772D151A5300C38E57 /* ToyotaCamryLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50E0762D151A5300C38E57 /* ToyotaCamryLinks.swift */; };
+		DC50E0792D151A6800C38E57 /* MazdaCX5Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50E0782D151A6700C38E57 /* MazdaCX5Links.swift */; };
+		DC50E07B2D151A7A00C38E57 /* Bmw3SeriesLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50E07A2D151A7900C38E57 /* Bmw3SeriesLinks.swift */; };
+		DC50E07D2D151A8D00C38E57 /* BmwX3Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50E07C2D151A8D00C38E57 /* BmwX3Links.swift */; };
+		DC50E07F2D151A9E00C38E57 /* LexusISLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50E07E2D151A9E00C38E57 /* LexusISLinks.swift */; };
+		DC50E0812D151AAA00C38E57 /* LexusRXLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50E0802D151AAA00C38E57 /* LexusRXLinks.swift */; };
+		DC50E0832D151AB900C38E57 /* LandRoverDefenderLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50E0822D151AB900C38E57 /* LandRoverDefenderLinks.swift */; };
+		DC50E0852D151AC700C38E57 /* Porsche911Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50E0842D151AC700C38E57 /* Porsche911Links.swift */; };
+		DC50E0872D151AD500C38E57 /* NissanGTRLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50E0862D151AD500C38E57 /* NissanGTRLinks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +35,22 @@
 		DC50E05C2D1518AB00C38E57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DC50E05E2D1518AD00C38E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC50E0612D1518AD00C38E57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC50E0682D15195700C38E57 /* CarResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarResponse.swift; sourceTree = "<group>"; };
+		DC50E06A2D15197800C38E57 /* CarDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDataFetcher.swift; sourceTree = "<group>"; };
+		DC50E06C2D15199100C38E57 /* CoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverView.swift; sourceTree = "<group>"; };
+		DC50E06E2D1519B500C38E57 /* StartPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPageView.swift; sourceTree = "<group>"; };
+		DC50E0702D1519CF00C38E57 /* CarDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDataView.swift; sourceTree = "<group>"; };
+		DC50E0722D1519FA00C38E57 /* ModelYearList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelYearList.swift; sourceTree = "<group>"; };
+		DC50E0742D151A3800C38E57 /* HondaCivicLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HondaCivicLinks.swift; sourceTree = "<group>"; };
+		DC50E0762D151A5300C38E57 /* ToyotaCamryLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyotaCamryLinks.swift; sourceTree = "<group>"; };
+		DC50E0782D151A6700C38E57 /* MazdaCX5Links.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazdaCX5Links.swift; sourceTree = "<group>"; };
+		DC50E07A2D151A7900C38E57 /* Bmw3SeriesLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bmw3SeriesLinks.swift; sourceTree = "<group>"; };
+		DC50E07C2D151A8D00C38E57 /* BmwX3Links.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BmwX3Links.swift; sourceTree = "<group>"; };
+		DC50E07E2D151A9E00C38E57 /* LexusISLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LexusISLinks.swift; sourceTree = "<group>"; };
+		DC50E0802D151AAA00C38E57 /* LexusRXLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LexusRXLinks.swift; sourceTree = "<group>"; };
+		DC50E0822D151AB900C38E57 /* LandRoverDefenderLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandRoverDefenderLinks.swift; sourceTree = "<group>"; };
+		DC50E0842D151AC700C38E57 /* Porsche911Links.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porsche911Links.swift; sourceTree = "<group>"; };
+		DC50E0862D151AD500C38E57 /* NissanGTRLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NissanGTRLinks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +85,22 @@
 			children = (
 				DC50E05A2D1518AB00C38E57 /* AutoView12_20_24App.swift */,
 				DC50E05C2D1518AB00C38E57 /* ContentView.swift */,
+				DC50E0682D15195700C38E57 /* CarResponse.swift */,
+				DC50E06A2D15197800C38E57 /* CarDataFetcher.swift */,
+				DC50E06C2D15199100C38E57 /* CoverView.swift */,
+				DC50E06E2D1519B500C38E57 /* StartPageView.swift */,
+				DC50E0702D1519CF00C38E57 /* CarDataView.swift */,
+				DC50E0722D1519FA00C38E57 /* ModelYearList.swift */,
+				DC50E0742D151A3800C38E57 /* HondaCivicLinks.swift */,
+				DC50E0762D151A5300C38E57 /* ToyotaCamryLinks.swift */,
+				DC50E0782D151A6700C38E57 /* MazdaCX5Links.swift */,
+				DC50E07A2D151A7900C38E57 /* Bmw3SeriesLinks.swift */,
+				DC50E07C2D151A8D00C38E57 /* BmwX3Links.swift */,
+				DC50E07E2D151A9E00C38E57 /* LexusISLinks.swift */,
+				DC50E0802D151AAA00C38E57 /* LexusRXLinks.swift */,
+				DC50E0822D151AB900C38E57 /* LandRoverDefenderLinks.swift */,
+				DC50E0842D151AC700C38E57 /* Porsche911Links.swift */,
+				DC50E0862D151AD500C38E57 /* NissanGTRLinks.swift */,
 				DC50E05E2D1518AD00C38E57 /* Assets.xcassets */,
 				DC50E0602D1518AD00C38E57 /* Preview Content */,
 			);
@@ -137,8 +185,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC50E0772D151A5300C38E57 /* ToyotaCamryLinks.swift in Sources */,
+				DC50E06F2D1519B500C38E57 /* StartPageView.swift in Sources */,
+				DC50E0832D151AB900C38E57 /* LandRoverDefenderLinks.swift in Sources */,
+				DC50E06B2D15197800C38E57 /* CarDataFetcher.swift in Sources */,
+				DC50E06D2D15199100C38E57 /* CoverView.swift in Sources */,
 				DC50E05D2D1518AB00C38E57 /* ContentView.swift in Sources */,
+				DC50E07B2D151A7A00C38E57 /* Bmw3SeriesLinks.swift in Sources */,
+				DC50E0732D1519FA00C38E57 /* ModelYearList.swift in Sources */,
+				DC50E0752D151A3800C38E57 /* HondaCivicLinks.swift in Sources */,
 				DC50E05B2D1518AB00C38E57 /* AutoView12_20_24App.swift in Sources */,
+				DC50E0812D151AAA00C38E57 /* LexusRXLinks.swift in Sources */,
+				DC50E0872D151AD500C38E57 /* NissanGTRLinks.swift in Sources */,
+				DC50E0852D151AC700C38E57 /* Porsche911Links.swift in Sources */,
+				DC50E07D2D151A8D00C38E57 /* BmwX3Links.swift in Sources */,
+				DC50E0692D15195700C38E57 /* CarResponse.swift in Sources */,
+				DC50E07F2D151A9E00C38E57 /* LexusISLinks.swift in Sources */,
+				DC50E0712D1519CF00C38E57 /* CarDataView.swift in Sources */,
+				DC50E0792D151A6800C38E57 /* MazdaCX5Links.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
