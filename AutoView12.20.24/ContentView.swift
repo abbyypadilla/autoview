@@ -1,5 +1,6 @@
 //  ContentView.swift
 //  AutoView
+//
 
 import SwiftUI
 
@@ -141,6 +142,8 @@ struct ContentView: View {
                         
                         Spacer()
                         
+                        // Graphs showcasing vehicle prices
+                        // Affordable, Mid-Luxury, Luxury
                         VStack(spacing: 10) {
                             Image("inflation1")
                             .resizable()
